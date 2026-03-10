@@ -1,0 +1,37 @@
+.heroBanner {
+  padding: 6rem 0 4rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3rem 1rem;
+    min-height: auto;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+}
