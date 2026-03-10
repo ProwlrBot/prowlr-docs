@@ -1,0 +1,29 @@
+{
+  "id": "configuration",
+  "title": "Configuration",
+  "description": "Configure ProwlrBot providers, models, and agent behavior.",
+  "source": "@site/docs/configuration.md",
+  "sourceDirName": ".",
+  "slug": "/configuration",
+  "permalink": "/prowlr-docs/docs/configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mcpcentral/prowlr-docs/tree/main/docs/configuration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Configuration",
+    "description": "Configure ProwlrBot providers, models, and agent behavior."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/prowlr-docs/docs/getting-started"
+  },
+  "next": {
+    "title": "Channels",
+    "permalink": "/prowlr-docs/docs/channels"
+  }
+}

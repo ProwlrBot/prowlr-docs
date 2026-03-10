@@ -1,0 +1,46 @@
+{
+  "permalink": "/prowlr-docs/blog/hello-prowlrbot",
+  "editUrl": "https://github.com/mcpcentral/prowlr-docs/tree/main/blog/2026-03-10-hello-prowlrbot.md",
+  "source": "@site/blog/2026-03-10-hello-prowlrbot.md",
+  "title": "Introducing ProwlrBot — Always Watching, Always Ready",
+  "description": "We're excited to open-source ProwlrBot — an autonomous AI agent platform for monitoring, automation, and multi-channel communication.",
+  "date": "2026-03-10T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "launch",
+      "permalink": "/prowlr-docs/blog/tags/launch"
+    },
+    {
+      "inline": true,
+      "label": "announcement",
+      "permalink": "/prowlr-docs/blog/tags/announcement"
+    }
+  ],
+  "readingTime": 0.93,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "mcpcentral",
+      "url": "https://github.com/mcpcentral",
+      "socials": {},
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "hello-prowlrbot",
+    "title": "Introducing ProwlrBot — Always Watching, Always Ready",
+    "authors": [
+      {
+        "name": "mcpcentral",
+        "url": "https://github.com/mcpcentral"
+      }
+    ],
+    "tags": [
+      "launch",
+      "announcement"
+    ]
+  },
+  "unlisted": false
+}

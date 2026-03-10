@@ -1,0 +1,29 @@
+{
+  "id": "channels",
+  "title": "Channels",
+  "description": "Connect ProwlrBot to Discord, Telegram, DingTalk, Feishu, QQ, iMessage, and more.",
+  "source": "@site/docs/channels.md",
+  "sourceDirName": ".",
+  "slug": "/channels",
+  "permalink": "/prowlr-docs/docs/channels",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mcpcentral/prowlr-docs/tree/main/docs/channels.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Channels",
+    "description": "Connect ProwlrBot to Discord, Telegram, DingTalk, Feishu, QQ, iMessage, and more."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/prowlr-docs/docs/configuration"
+  },
+  "next": {
+    "title": "Skills",
+    "permalink": "/prowlr-docs/docs/skills"
+  }
+}

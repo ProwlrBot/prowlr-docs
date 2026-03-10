@@ -1,0 +1,29 @@
+{
+  "id": "skills",
+  "title": "Skills",
+  "description": "Extend ProwlrBot with built-in and custom skills.",
+  "source": "@site/docs/skills.md",
+  "sourceDirName": ".",
+  "slug": "/skills",
+  "permalink": "/prowlr-docs/docs/skills",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mcpcentral/prowlr-docs/tree/main/docs/skills.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Skills",
+    "description": "Extend ProwlrBot with built-in and custom skills."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Channels",
+    "permalink": "/prowlr-docs/docs/channels"
+  },
+  "next": {
+    "title": "Dashboard",
+    "permalink": "/prowlr-docs/docs/dashboard"
+  }
+}
