@@ -22,10 +22,10 @@
 | **Multi-agent**                       | Built on [AgentScope](https://github.com/agentscope-ai/agentscope), native multi-agent workflows                                                 | Long-term planned    |
 | **Sandbox**                           | Deeper integration with AgentScope Runtime sandboxes                                                                                             | Long-term planned    |
 | **Self-healing**                      | Daemon agent for automated recovery and health monitoring                                                                                        | Long-term planned    |
-| **CoPaw-optimized local models**      | LLMs tuned for CoPaw's native skills and common tasks; better local personal-assistant usability                                                 | Long-term planned    |
+| **ProwlrBot-optimized local models**      | LLMs tuned for ProwlrBot's native skills and common tasks; better local personal-assistant usability                                                 | Long-term planned    |
 | **Small + large model collaboration** | Local LLMs for sensitive data; cloud LLMs for planning and coding; balance of privacy, performance, and capability                               | Long-term planned    |
 | **Cloud-native**                      | Deeper integration with AgentScope Runtime; leverage cloud compute, storage, and tooling                                                         | Long-term planned    |
-| **Skills Hub**                        | Enrich the [AgentScope Skills](https://github.com/agentscope-ai/agentscope-skills) repository and improve discoverability of high-quality skills | Long-term planned    |
+| **Skills Hub**                        | Enrich the [ProwlrBot Skills](https://github.com/prowlrbot/prowlrbot-skills) repository and improve discoverability of high-quality skills | Long-term planned    |
 
 _Status:_ _In Progress_ — actively being worked on; _Planned_ — queued or under design, also **welcome contributions**; _Seeking Contributors_ — we **strongly encourage community contributions**; _Long-term planned_ — longer-horizon roadmap.
 
@@ -33,9 +33,9 @@ _Status:_ _In Progress_ — actively being worked on; _Planned_ — queued or un
 
 ## Get involved
 
-We are building CoPaw in the open and welcome contributions of all kinds! Check the table above (especially items marked **Seeking Contributors**) to find areas that interest you, and read [CONTRIBUTING](https://github.com/agentscope-ai/CoPaw/blob/main/CONTRIBUTING.md) to get started. We particularly welcome:
+We are building ProwlrBot in the open and welcome contributions of all kinds! Check the table above (especially items marked **Seeking Contributors**) to find areas that interest you, and read [CONTRIBUTING](https://github.com/prowlrbot/prowlrbot/blob/main/CONTRIBUTING.md) to get started. We particularly welcome:
 
 - **Horizontal expansion** — new channels, model providers, skills, MCPs.
 - **Existing feature extension** — display and UX improvements, download hints, Windows path compatibility, and the like.
 
-Join the conversation on [GitHub Discussions](https://github.com/agentscope-ai/CoPaw/discussions) to suggest or pick up work.
+Join the conversation on [GitHub Discussions](https://github.com/prowlrbot/prowlrbot/discussions) to suggest or pick up work.
