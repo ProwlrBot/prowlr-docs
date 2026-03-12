@@ -6,7 +6,7 @@
 - **方式二 — pip 安装**：适合自行管理 Python 环境的用户。
 - **方式三 — 魔搭创空间**：一键配置，部署到创空间云端运行，无需本地安装。
 - **方式四 — Docker**：使用官方镜像（Docker Hub；国内可选 ACR），镜像 tag 含 `latest`（稳定版）与 `pre`（PyPI 预发布版）。
-- **方式五 — 阿里云 ECS**：在阿里云上一键部署 CoPaw，无需本地安装。
+- **方式五 — 阿里云 ECS**：在阿里云上一键部署 ProwlrBot，无需本地安装。
 
 > 📖 阅读前请先了解 [项目介绍](./intro)，完成安装与启动后可查看 [控制台](./console)。
 
@@ -23,7 +23,7 @@
 **macOS / Linux：**
 
 ```bash
-curl -fsSL https://copaw.agentscope.io/install.sh | bash
+curl -fsSL https://prowlr.agentscope.io/install.sh | bash
 ```
 
 然后打开新终端（或执行 `source ~/.zshrc` / `source ~/.bashrc`）。
@@ -31,10 +31,10 @@ curl -fsSL https://copaw.agentscope.io/install.sh | bash
 **Windows（PowerShell）：**
 
 ```powershell
-irm https://copaw.agentscope.io/install.ps1 | iex
+irm https://prowlr.agentscope.io/install.ps1 | iex
 ```
 
-然后打开新终端（安装脚本会自动将 CoPaw 加入 PATH）。
+然后打开新终端（安装脚本会自动将 ProwlrBot 加入 PATH）。
 
 也可以指定选项：
 
@@ -68,32 +68,32 @@ bash install.sh --extras ollama      # Ollama（跨平台，需 Ollama 服务运
 .\install.ps1 -Extras ollama        # Ollama
 ```
 
-升级只需重新运行安装命令。卸载请运行 `copaw uninstall`。
+升级只需重新运行安装命令。卸载请运行 `prowlr uninstall`。
 
 ### 步骤二：初始化
 
-在工作目录（默认 `~/.copaw`）下生成 `config.json` 与 `HEARTBEAT.md`。两种方式：
+在工作目录（默认 `~/.prowlrbot`）下生成 `config.json` 与 `HEARTBEAT.md`。两种方式：
 
 - **快速用默认配置**（不交互，适合先跑起来再改配置）：
   ```bash
-  copaw init --defaults
+  prowlr init --defaults
   ```
 - **交互式初始化**（按提示填写心跳间隔、投递目标、活跃时段，并可顺带配置频道与 Skills）：
   ```bash
-  copaw init
+  prowlr init
   ```
   详见 [CLI - 快速上手](./cli#快速上手)。
 
-若已有配置想覆盖，可使用 `copaw init --force`（会提示确认）。
+若已有配置想覆盖，可使用 `prowlr init --force`（会提示确认）。
 初始化后若尚未启用频道，接入钉钉、飞书、QQ 等需在 [频道配置](./channels) 中按文档填写。
 
 ### 步骤三：启动服务
 
 ```bash
-copaw app
+prowlr app
 ```
 
-服务默认监听 `127.0.0.1:8088`。若已配置频道，CoPaw 会在对应 app 内回复；若尚未配置，也可先完成本节再前往频道配置。
+服务默认监听 `127.0.0.1:8088`。若已配置频道，ProwlrBot 会在对应 app 内回复；若尚未配置，也可先完成本节再前往频道配置。
 
 ---
 
@@ -102,11 +102,11 @@ copaw app
 如果你更习惯自行管理 Python 环境（需 Python >= 3.10, < 3.14）：
 
 ```bash
-pip install copaw
+pip install prowlr
 ```
 
 可选：先创建并激活虚拟环境再安装（`python -m venv .venv`，Linux/macOS 下
-`source .venv/bin/activate`，Windows 下 `.venv\Scripts\Activate.ps1`）。安装后会提供 `copaw` 命令。
+`source .venv/bin/activate`，Windows 下 `.venv\Scripts\Activate.ps1`）。安装后会提供 `prowlr` 命令。
 
 然后按上方 [步骤二：初始化](#步骤二初始化) 和 [步骤三：启动服务](#步骤三启动服务) 操作。
 
@@ -114,38 +114,38 @@ pip install copaw
 
 ## 方式三：魔搭创空间一键配置（无需安装）
 
-若不想在本地安装 Python，可通过魔搭创空间将 CoPaw 部署到云端运行：
+若不想在本地安装 Python，可通过魔搭创空间将 ProwlrBot 部署到云端运行：
 
 1. 先前往 [魔搭](https://modelscope.cn/register?back=%2Fhome) 注册并登录；
-2. 打开 [CoPaw 创空间](https://modelscope.cn/studios/fork?target=AgentScope/CoPaw)，一键配置即可使用。
+2. 打开 [ProwlrBot 创空间](https://modelscope.cn/studios/fork?target=AgentScope/ProwlrBot)，一键配置即可使用。
 
-**重要**：使用创空间请将空间设为 **非公开**，否则你的 CoPaw 可能被他人操纵。
+**重要**：使用创空间请将空间设为 **非公开**，否则你的 ProwlrBot 可能被他人操纵。
 
 ---
 
 ## 方式四：Docker
 
-镜像在 **Docker Hub**（`agentscope/copaw`）。镜像 tag：`latest`（稳定版）；`pre`（PyPI 预发布版）。国内用户也可选用阿里云 ACR：`agentscope-registry.ap-southeast-1.cr.aliyuncs.com/agentscope/copaw`（tag 相同）。
+镜像在 **Docker Hub**（`agentscope/prowlr`）。镜像 tag：`latest`（稳定版）；`pre`（PyPI 预发布版）。国内用户也可选用阿里云 ACR：`agentscope-registry.ap-southeast-1.cr.aliyuncs.com/agentscope/prowlr`（tag 相同）。
 
 拉取并运行：
 
 ```bash
-docker pull agentscope/copaw:latest
-docker run -p 8088:8088 -v copaw-data:/app/working agentscope/copaw:latest
+docker pull agentscope/prowlr:latest
+docker run -p 8088:8088 -v prowlr-data:/app/working agentscope/prowlr:latest
 ```
 
-然后在浏览器打开 **http://127.0.0.1:8088/** 进入控制台。配置、记忆与 Skills 保存在 `copaw-data` 卷中。传入 API Key 可在 `docker run` 时加 `-e DASHSCOPE_API_KEY=xxx` 或 `--env-file .env`。
+然后在浏览器打开 **http://127.0.0.1:8088/** 进入控制台。配置、记忆与 Skills 保存在 `prowlr-data` 卷中。传入 API Key 可在 `docker run` 时加 `-e DASHSCOPE_API_KEY=xxx` 或 `--env-file .env`。
 
 ---
 
 ## 方式五：部署到阿里云 ECS
 
-若希望将 CoPaw 部署在阿里云上，可使用阿里云 ECS 一键部署：
+若希望将 ProwlrBot 部署在阿里云上，可使用阿里云 ECS 一键部署：
 
-1. 打开 [CoPaw 阿里云 ECS 部署链接](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceId=service-1ed84201799f40879884)，按页面提示填写部署参数；
+1. 打开 [ProwlrBot 阿里云 ECS 部署链接](https://computenest.console.aliyun.com/service/instance/create/cn-hangzhou?type=user&ServiceId=service-1ed84201799f40879884)，按页面提示填写部署参数；
 2. 参数配置完成后确认费用并创建实例，部署完成后即可获取访问地址并使用服务。
 
-详细步骤与说明请参考 [阿里云开发者社区：CoPaw 3 分钟部署你的 AI 助理](https://developer.aliyun.com/article/1713682)。
+详细步骤与说明请参考 [阿里云开发者社区：ProwlrBot 3 分钟部署你的 AI 助理](https://developer.aliyun.com/article/1713682)。
 
 ---
 
