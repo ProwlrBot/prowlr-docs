@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/ProwlrBot-Docs-00E5FF?style=for-the-badge&logoColor=white" alt="ProwlrBot Docs" />
+  <img src="https://img.shields.io/badge/ProwlrBot-Docs-06b6d4?style=for-the-badge&logoColor=white" alt="ProwlrBot Docs" />
 </p>
 
 <h1 align="center">prowlr-docs</h1>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ProwlrBot/prowlrbot"><img src="https://img.shields.io/badge/core-prowlrbot-00E5FF?style=flat-square" /></a>
+  <a href="https://github.com/ProwlrBot/prowlrbot"><img src="https://img.shields.io/badge/core-prowlrbot-06b6d4?style=flat-square" /></a>
   <a href="https://github.com/ProwlrBot/prowlr-docs/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square" /></a>
 </p>
 
