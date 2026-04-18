@@ -32,7 +32,6 @@ through each feature in order.
 This is where you talk to ProwlrBot. It is the default page when the Console
 opens.
 
-![Chat](https://img.alicdn.com/imgextra/i4/O1CN01iuGyNc1mNwsUU5NQI_!!6000000004943-2-tps-3822-2070.png)
 
 **Send a message:**
 Type in the input box at the bottom, then press **Enter** or click the send
@@ -57,14 +56,12 @@ Click the **···** button on a session item, then click the **trash** icon.
 Manage channel for DingTalk, Feishu, Discord, QQ,
 iMessage, and Console.
 
-![Channels](https://img.alicdn.com/imgextra/i4/O1CN01tUJBg121ZbBnC5fjx_!!6000000006999-2-tps-3822-2070.png)
 
 **Enable a channel:**
 
 1. Click the channel card you want to configure.
 2. A settings panel slides out on the right. Turn on **Enable**.
 
-   ![Channel Configuration](https://img.alicdn.com/imgextra/i1/O1CN01dbZiw21S5MUOUFJ06_!!6000000002195-2-tps-3822-2070.png)
 
 3. Fill in required credentials (fields differ by channel):
 
@@ -92,7 +89,6 @@ Open the same panel, turn off **Enable**, then click **Save**.
 
 View, filter, and clean up chat sessions across all channels.
 
-![Sessions](https://img.alicdn.com/imgextra/i2/O1CN0142DXNW1NkyOX07sJ7_!!6000000001609-2-tps-3822-2070.png)
 
 **Find sessions:**
 Use the search box to filter by user, or use the dropdown to filter by
@@ -115,13 +111,11 @@ Select rows → click **Batch Delete** → confirm.
 
 Create and manage scheduled jobs that ProwlrBot runs automatically by time.
 
-![Cron Jobs](https://img.alicdn.com/imgextra/i3/O1CN01JET1Aw1C9SAvXuIpk_!!6000000000038-2-tps-3822-2070.png)
 
 **Create a new job:**
 
 1. Click **+ Create Job**.
 
-   ![Create Cron Job](https://img.alicdn.com/imgextra/i2/O1CN01jFAcIZ1wCAqyxDGKX_!!6000000006271-2-tps-3822-2070.png)
 
 2. Fill in each section:
    - **Basic Info** — Job ID (e.g. `job-001`) and job name (e.g. "Daily Summary").
@@ -155,7 +149,6 @@ Click **Delete** → confirm.
 Edit files that define ProwlrBot's persona and behavior, such as `SOUL.md`,
 `AGENTS.md`, and `HEARTBEAT.md`, directly in the browser.
 
-![Workspace](https://img.alicdn.com/imgextra/i3/O1CN01APrwdP1NqT9CKJMFt_!!6000000001621-2-tps-3822-2070.png)
 
 **Edit files:**
 
@@ -183,7 +176,6 @@ will be replaced. Useful for migration and backup restore.
 Manage skills that extend ProwlrBot's capabilities (for example: PDF reading,
 Word document creation, news retrieval).
 
-![Skills](https://img.alicdn.com/imgextra/i1/O1CN01ZF4kVc1Yz8PlPdiM6_!!6000000003129-2-tps-3822-2070.png)
 
 **Enable a skill:**
 Click **Enable** at the bottom of a skill card. It takes effect immediately.
@@ -200,7 +192,6 @@ Click **Disable**. It also takes effect immediately.
 2. Enter a skill URL, then click import.
 3. Wait for import to complete. The skill appears as enabled.
 
-![Import Skill](https://img.alicdn.com/imgextra/i4/O1CN01LLVYzH28gCCjby41K_!!6000000007961-2-tps-3822-2070.png)
 
 **Create a custom skill:**
 
@@ -209,7 +200,6 @@ Click **Disable**. It also takes effect immediately.
    (must include `name` and `description`).
 3. Click **Save**. The new skill appears immediately.
 
-![Create Skill](https://img.alicdn.com/imgextra/i3/O1CN01hW0eLY1go9qeiPrUF_!!6000000004188-2-tps-3822-2070.png)
 
 **Delete a custom skill:**
 Disable the skill first, then click the **🗑** icon on its card and confirm.
@@ -225,7 +215,6 @@ Disable the skill first, then click the **🗑** icon on its card and confirm.
 
 Enable/disable/delete **MCP** clients here, or create new ones.
 
-![MCP](https://img.alicdn.com/imgextra/i4/O1CN01ANXnQQ1IfPVO6bEbY_!!6000000000920-2-tps-3786-1980.png)
 
 **Create a client**
 Click **Create Client** in the top-right, fill in the required information, then click **Create**. The new MCP client appears in the list.
@@ -236,7 +225,6 @@ Click **Create Client** in the top-right, fill in the required information, then
 
 > Sidebar: **Agent → Runtime Config**
 
-![Runtime Config](https://img.alicdn.com/imgextra/i3/O1CN01mhPcqC1KzgGYJQgkW_!!6000000001235-2-tps-3786-1980.png)
 
 Adjust **Max iterations** and **Max input length** here; click **Save** after changing.
 
@@ -249,7 +237,6 @@ Adjust **Max iterations** and **Max input length** here; click **Save** after ch
 Configure LLM providers and choose the model ProwlrBot uses. ProwlrBot supports both
 cloud providers (API key required) and local providers (no API key required).
 
-![Models](https://img.alicdn.com/imgextra/i2/O1CN01Kd3lg91HdkS5SaLoF_!!6000000000781-2-tps-3822-2070.png)
 
 ### Cloud providers
 
@@ -342,7 +329,6 @@ automatically when models are added/removed via Ollama CLI or Console.
 Manage runtime environment variables needed by ProwlrBot tools and skills
 (for example, `TAVILY_API_KEY`).
 
-![Environments](https://img.alicdn.com/imgextra/i1/O1CN01jNMeBA1nMP9tQdTmU_!!6000000005075-2-tps-3822-2070.png)
 
 **Add a variable:**
 
